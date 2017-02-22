@@ -1,0 +1,13 @@
+You create a new rails application by typing in ' rails new *name of app*'
+
+bundle is a gem that goes to rubygem.org and takes all gems and installs all of them
+to get the rails application running
+
+Rails follows MVC structure
+
+When you type in a HTTP GET request. It is received by the Router.
+The Router then directs request to appropriate Controller
+Controller either renders View and re-directs to appropriate page
+or Controller reaches out to the Model.
+Model then based on the request reaches out to the Database and updates the information
+and sends it back to the Controller which then render the View
