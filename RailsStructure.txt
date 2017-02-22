@@ -11,3 +11,14 @@ Controller either renders View and re-directs to appropriate page
 or Controller reaches out to the Model.
 Model then based on the request reaches out to the Database and updates the information
 and sends it back to the Controller which then render the View
+
+Under 'app' you will see 'controllers', 'models' and 'views' folder
+The routes of the application are in the 'config' folder under 'routes.rb'
+
+Under 'app' , in the 'assests' folder, images,stylesheets, javascript code are housed
+'helpers' have common logic for views
+
+Under 'config' , database.yml tells you how your app is communicating with the database
+ In 'db' folder all migration files go. The files used to create tables.
+ 
+ In 'Gemfile' , all gems used by Ruby on Rails are housed.
